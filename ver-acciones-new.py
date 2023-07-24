@@ -2,9 +2,9 @@ import streamlit as st
 import pip as pip
 import sys
 
+pip.main(["install", "matplotlib"])
 pip.main(["install", "seaborn"])
 pip.main(["install", "openpyxl"])
-pip.main(["install", "matplotlib"])
 pip.main(["install", " yfinance"])
 
 import matplotlib.gridspec as gridspec
