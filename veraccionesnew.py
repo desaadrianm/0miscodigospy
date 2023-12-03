@@ -2,6 +2,7 @@ import streamlit as st
 import pip as pip
 import sys
 
+
 pip.main(["install", "seaborn"])
 pip.main(["install", "openpyxl"])
 pip.main(["install", "matplotlib"])
